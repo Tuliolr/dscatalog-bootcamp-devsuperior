@@ -4,7 +4,7 @@
     align-items: center;
     padding-left: 40px;
     margin-left: 0;
-    margin-right: 0;;
+    margin-right: 0;
 }
 
 .nav-logo-text {
@@ -18,17 +18,16 @@
     justify-content: space-between;
 
     a {
-        
         font-style: normal;
-        color: rgba(255,255,255, 0.5);
-        
-        &.active {
+        color: rgba(255, 255, 255, 0.5);
+
+        &.active{
             font-weight: bold;
             color: #fff;
         }
 
-        &:hover {
+        &:hover{
             color: #fff;
         }
-    } 
+    }
 }
